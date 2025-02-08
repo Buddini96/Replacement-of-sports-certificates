@@ -1,8 +1,8 @@
-import React from "react";
+// bg-gray-100 p-6
 
 const AboutPage = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100 p-6">
+    <div className="flex items-center justify-center h-screen "> 
       <div className="w-full h-full flex items-center justify-center">
         <div className="w-full h-full bg-white shadow-lg p-8 flex">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 h-full w-full">

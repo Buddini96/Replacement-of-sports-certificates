@@ -8,6 +8,7 @@ import AdminDashboard from './pages/Admin/AdminDashboard';
 import AddNewAdmin from './pages/Admin/AddNewAdmin';
 import StudentDetails from './pages/Admin/StudentDetails';
 import CertificationDetails from './pages/Admin/CertificationDetails';
+import AboutPage from './pages/AboutPage';
 // import Navbar from './components/Navbar';
 CertificationDetails
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/add-admin" element={<AddNewAdmin />} />
           <Route path="/studenet-details" element={<StudentDetails />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route
             path="/admin/certification"
             element={<CertificationDetails />}
