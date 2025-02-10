@@ -2,6 +2,7 @@ import HomeBg from "../assets/images/homeBg.png";
 import Footer from "../components/Footer";
 import AboutPage from "./AboutPage";
 import Contact from "./Contact";
+import Replacement from "./Replacement";
 
 function Home() {
   return (
@@ -36,6 +37,10 @@ function Home() {
       {/* About page */}
       <div>
         <AboutPage />
+      </div>
+
+      <div>
+        <Replacement />
       </div>
 
       {/* Contact Info Page */}

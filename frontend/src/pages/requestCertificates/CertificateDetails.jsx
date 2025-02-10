@@ -21,7 +21,7 @@ function CertificateDetails({ certificate, setSelectedCertificate }) {
     <div className="p-5">
       <div
         className="flex items-center space-x-2 cursor-pointer"
-        onClick={() => setSelectedCertificate(null)} 
+        onClick={() => setSelectedCertificate(null)}
       >
         <MdArrowBackIosNew className="text-xl" />
         <h1 className="text-3xl font-bold">{certificate.title}</h1>
@@ -79,7 +79,7 @@ function CertificateDetails({ certificate, setSelectedCertificate }) {
             </label>
             <textarea
               rows="4"
-              className="w-full p-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200"
+              className="w-full p-2 border bg-[#EDF6F5] border-gray-300 rounded-md focus:ring focus:ring-blue-200"
               placeholder="Enter Description"
             ></textarea>
           </div>
