@@ -9,14 +9,15 @@ import AddNewAdmin from './pages/Admin/AddNewAdmin';
 import StudentDetails from './pages/Admin/StudentDetails';
 import CertificationDetails from './pages/Admin/CertificationDetails';
 import AboutPage from './pages/AboutPage';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
+import Contact from './pages/Contact';
 CertificationDetails
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/certificate" element={<Certificate />} />
@@ -26,6 +27,7 @@ function App() {
           <Route path="/add-admin" element={<AddNewAdmin />} />
           <Route path="/studenet-details" element={<StudentDetails />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/admin/certification"
             element={<CertificationDetails />}

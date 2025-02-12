@@ -6,7 +6,7 @@ function Certificate() {
 
   const [sidebarToggle, setSidebarToggle] = useState(false);
   return (
-    <div className="flex">
+    <div className="flex mt-19 px-7">
       <Sidebar sidebarToggle={sidebarToggle} />
       <Dashboard
         sidebarToggle={sidebarToggle}
